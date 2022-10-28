@@ -1,0 +1,100 @@
+*{
+	font-family: Poppins;
+}
+
+body{
+  background-image: url('images/darkblue.jpg');
+	}
+
+header{
+position: absolute;
+top: -10px;
+left: -10px;
+width: 100.5%;
+height: 80px;
+background: #799FCB 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 6px #00000029;
+margin-top: -5px;
+}
+
+.logo1{
+	opacity: none;
+}
+
+.logo img{
+  opacity: 1;
+  transition: 0.4s ease;
+
+}
+
+.logo img:hover{
+   background-color: #C33C23;
+   border-radius: 45%;
+}
+
+ul li{
+  position: relative;
+  left: 50px;
+  display: inline-block;
+  margin-right: 20px;
+  color:darkblue;
+  float: left;
+  margin-top: 21px;
+
+}
+
+ul li a{
+  text-decoration: none;
+  color: white;
+  padding: 6px 20px;
+  border-radius: 25px;
+  opacity: 1;
+  transition: 0.6s ease;
+}
+
+ul li a:hover{
+    background-color: #A7BAE7 ;
+    color: black;
+}
+
+.back{
+  height: 75vh;
+  width: 30%;
+  background-image: url(images/lightstars.gif);
+  border-radius: 20%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  padding: 0 20px;
+}
+
+.back, .img{
+  opacity: 1;
+}
+
+.img{
+  height: 70px;
+  width: 70px;
+  background: url('images/gas.gif')no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50px;
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.back h1{
+  color: white;
+  margin-top: 50px;
+  font-family: Courier New;
+}
+
+.back p{
+  color: white;
+  margin-top: 60px;
+  font-family: Courier New;
+  font-size: larger;
+}
